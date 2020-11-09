@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Brand.create(name: "Air Jordan", logo: "/Users/gooseisdead/the-kick-list/the-kick-list-backend/storage/images/jumpman.png")
+Brand.create(name: "Air Jordan", logo: "images/jumpman.png")
 Brand.create(name: "Nike", logo: "https://thedrop101.files.wordpress.com/2014/11/nike_swoosh_logo_black_original-1.jpg")
 Brand.create(name: "Yeezy", logo: "https://1000logos.net/wp-content/uploads/2017/08/Yeezy-Logo.png")
 Brand.create(name: "Adidas", logo: "https://logodownload.org/wp-content/uploads/2019/11/adidas-originals-logo-1.png")
