@@ -11,11 +11,6 @@ Brand.create(name: "Yeezy", logo: "https://1000logos.net/wp-content/uploads/2017
 Brand.create(name: "Adidas", logo: "https://logodownload.org/wp-content/uploads/2019/11/adidas-originals-logo-1.png")
 Brand.create(name: "New Balance", logo: "https://logo-logos.com/wp-content/uploads/2016/11/New_Balance_logo_black_NB.png")
 
-Brand.create(name: "Air Jordan", logo: "https://logonoid.com/images/jumpman-logo.jpg")
-Brand.create(name: "Nike", logo: "https://thedrop101.files.wordpress.com/2014/11/nike_swoosh_logo_black_original-1.jpg")
-Brand.create(name: "Yeezy", logo: "https://1000logos.net/wp-content/uploads/2017/08/Yeezy-Logo.png")
-Brand.create(name: "Adidas", logo: "https://logodownload.org/wp-content/uploads/2019/11/adidas-originals-logo-1.png")
-Brand.create(name: "New Balance", logo: "https://logo-logos.com/wp-content/uploads/2016/11/New_Balance_logo_black_NB.png")
 Sneaker.create(name: "Jordan 1 Retro High Dark Mocha", release: "10/31/2020", image: "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Dark-Mocha-2-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1603754990", value: 390, rarity: "Gold", description: "Dark Mocha", rating: "4.68", brand: Brand.find_by(id:1))
 Sneaker.create(name: "Jordan 5 Retro OFF-WHITE Sail", release: "10/29/2020", image: "https://images.solecollector.com/images/fl_lossy,q_auto/c_crop,h_1320,w_2000,x_0,y_327/ay0useiqwnnvoz8tzuhp/off-white-air-jordan-5-sail-red-dh8565-100-4", value: 595, rarity: "Platinum", description: "OFF-WHITE Sail", rating: "4.07", brand: Brand.find_by(id:1))
 Sneaker.create(name: "Jordan 12 Retro Black Dark Concord", release: "10/23/2020", image: "https://stockx.imgix.net/Air-Jordan-12-Retro-Black-Dark-Concord.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1603481985", value: 250, rarity: "Silver", description: "Concord", rating: "4.32", brand: Brand.find_by(id:1))
@@ -45,3 +40,6 @@ Sneaker.create(name: "New Balance 1500 Hanon Chosen Few", release: "08/31/2012",
 Sneaker.create(name: "New Balance 550 Aime Leon Dore White Red", release: "10/09/2020", image: "https://stockx.imgix.net/New-Balance-550-Aime-Leon-Dore-White-Red-1.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1603481985", value: 375 , rarity: "Gold", description: "Aime Leon Dore", rating: "4.12", brand: Brand.find_by(id:5))
 Sneaker.create(name: "New Balance 992 JJJJound Green", release: "07/31/2020", image: "https://stockx-360.imgix.net//New-Balance-992-Jjjjound-Green/Images/New-Balance-992-Jjjjound-Green/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1603481985", value: 625 , rarity: "Gold", description: "JJJJound", rating: "4.56", brand: Brand.find_by(id:5))
 Sneaker.create(name: "New Balance Vision Racer Jaden Smith White Navy Yellow", release: "08/10/2020", image: "https://stockx-360.imgix.net//New-Balance-Vision-Racer-Jaden-Smith-White-Navy-Yellow/Images/New-Balance-Vision-Racer-Jaden-Smith-White-Navy-Yellow/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1603481985", value: 180 , rarity: "Bronze", description: "Jaden Smith Racer", rating: "3.85", brand: Brand.find_by(id:5))
+
+
+
