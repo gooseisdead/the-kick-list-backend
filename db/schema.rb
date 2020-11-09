@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 2020_11_09_170555) do
 
   create_table "brands", force: :cascade do |t|
     t.string "name"
-    t.string "slogan"
     t.string "logo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
