@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Sneaker.destroy_all 
+Brand.destroy_all
+
+
 Brand.create(name: "Air Jordan", logo: "https://logonoid.com/images/jumpman-logo.jpg")
 Brand.create(name: "Nike", logo: "https://thedrop101.files.wordpress.com/2014/11/nike_swoosh_logo_black_original-1.jpg")
 Brand.create(name: "Yeezy", logo: "https://1000logos.net/wp-content/uploads/2017/08/Yeezy-Logo.png")

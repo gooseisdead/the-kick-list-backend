@@ -12,12 +12,8 @@
 
 ActiveRecord::Schema.define(version: 2020_11_09_170555) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "brands", force: :cascade do |t|
     t.string "name"
-    t.string "slogan"
     t.string "logo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -31,7 +27,7 @@ ActiveRecord::Schema.define(version: 2020_11_09_170555) do
     t.string "rarity"
     t.string "description"
     t.string "rating"
-    t.bigint "brand_id", null: false
+    t.integer "brand_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["brand_id"], name: "index_sneakers_on_brand_id"
