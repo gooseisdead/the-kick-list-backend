@@ -3,4 +3,5 @@ class SneakersController < ApplicationController
         sneakers = Sneaker.all 
         render json: sneakers
     end
+    
 end
